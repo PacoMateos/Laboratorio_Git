@@ -53,4 +53,26 @@ git push -u origin master
 
     > https://github.com/PacoMateos/Laboratorio_Git
 
+## 3. Hacer un commit y un push
+
+- Crea un archivo en la carpeta del repositorio.
+```
+git code .
+```
+  > Crear archivo readme.md
+  > Editar archivo readme.md hasta punto primero.
+
+- Añade el archivo al staging.
+```
+git add .
+```
+
+- Crea un commit con un mensaje descriptivo.
+```
+git commit -m "Primer commit, subiendo Readme.md"
+```
+- Sube los cambios al repositorio en GitHub.
+
+  > git push -u origin master
+
 
