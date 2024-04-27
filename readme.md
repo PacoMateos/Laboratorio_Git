@@ -60,6 +60,7 @@ git push -u origin master
 git code .
 ```
   > Crear archivo readme.md
+  >
   > Editar archivo readme.md hasta punto primero.
 
 - Añade el archivo al staging.
@@ -75,4 +76,19 @@ git commit -m "Primer commit, subiendo Readme.md"
 
   > git push -u origin master
 
+## 4. Crear una rama
 
+- Crea una rama nueva llamada "development".
+
+```
+git branch development
+```
+
+- Cambia a la nueva rama.
+```
+git checkout development
+```
+
+- Realiza algunos cambios en el archivo que creaste.
+- Añade y haz un commit con los cambios en la rama "development".
+- Sube los cambios a Github.
