@@ -92,3 +92,7 @@ git checkout development
 - Realiza algunos cambios en el archivo que creaste.
 - Añade y haz un commit con los cambios en la rama "development".
 - Sube los cambios a Github.
+
+# Imagen
+
+![imagenPrueba](https://github.com/PacoMateos/Laboratorio_Git/blob/master/img/imagen1.png)
