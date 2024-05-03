@@ -51,6 +51,10 @@ git push -u origin master
 ```
 - Verifica que la conexión se haya establecido correctamente.
 
+```
+git remote
+```
+
     > https://github.com/PacoMateos/Laboratorio_Git
 
 ## 3. Hacer un commit y un push
@@ -93,6 +97,24 @@ git checkout development
 - Añade y haz un commit con los cambios en la rama "development".
 - Sube los cambios a Github.
 
+```
+git push -u origin development
+```
+
+## 5. Hacer un merge
+
+- Vuelve a la rama "master".
+- Haz un merge de la rama "development" a la rama "master".
+- Si no hay conflictos, los cambios realizados en la rama "development" se incorporarán a la rama "master".
+
+> No han aparecido conflictos
+
+- Haz un push de los cambios al repositorio en GitHub.
+
+```
+git push -u origin master
+```
+
 # Imagen
 
-![imagenPrueba](https://github.com/PacoMateos/Laboratorio_Git/blob/master/img/imagen1.png)
+![imagenPrueba](https://github.com/PacoMateos/Laboratorio_Git/blob/master/img/Git.png)
